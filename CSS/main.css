@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(206, 198, 255); 
+   background-color: rgb(140, 185, 255); 
+}
+
+#title {
+  padding: 50px;
+  font-family: Abel;
+  font-size: 60px;
+}
+
+#main-box{
+  
+  background-color: rgb(237, 239, 242);
+  border: solid;
+  border-color: rgb(140, 185, 255);
+  border-radius:10px;
+  margin: 0px 350px 20px 350px;
+}
+
+#search-box {
+  width: 100%;
+  border: 5px;
+  border-radius: 4px;
+  padding: 8px 70px 8px 5px;
+  text-align: left;
+  
+}
+
+form {
+  text-align: center;
+  margin: 30px;
+}
+
+#search-button {
+  width: 35%;
+  margin: 30px auto 10px;
+}
+
+#random-button {
+   width: 100%;
+  text-align: center;
+  margin: 0px 0px 30px;
+}
+
+#articles-box {
+  background-color: rgb(140, 185, 255);
+  border: solid;
+  border-color:rgb(140, 185, 255);
+  border-radius:10px;
+  margin: 0px 150px 20px 108px;
+}
+
+.bgimg {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    z-index:-1;
+    opacity:1;
+}
+
+#wikipedia-articles {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 992px) {
+  
+  #main-box{
+    margin: 0px 250px 20px 250px;
+  
+  }
+
+}
+@media screen and (max-width: 780px) {
+ 
+  #main-box{
+    margin: 0px 150px 20px 150px;
+  
+  }
+  #articles-box {
+    margin: 0px 60px 20px 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  
+  #main-box{
+    margin: 0px 50px 20px 50px;
+  
+  }
+  #articles-box {
+    margin: 0px 40px 20px 1px;
+  }
+}
